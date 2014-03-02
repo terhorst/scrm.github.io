@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>scrm by paulstaab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">scrm</h1>
+        <p class="header">Sequential Coalescent With Recombination Model</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/paulstaab/scrm/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/paulstaab/scrm/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/paulstaab/scrm">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/paulstaab">paulstaab</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="scrm" class="anchor" href="#scrm"><span class="octicon octicon-link"></span></a>scrm</h1>
+
+<p><a href="https://travis-ci.org/paulstaab/scrm"><img src="https://travis-ci.org/paulstaab/scrm.png?branch=master" alt="Build Status"></a></p>
+
+<p>scrm is an implementation of the Sequential-Coalescent-with-Recombination Model.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>On Debian/Ubuntu based systems:</p>
+
+<div class="highlight highlight-bash"><pre>apt-get install build-essential libboost-all-dev autoconf autoconf-archive doxygen libcppunit-dev
+<span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">"-O3"</span> ./bootstrap
+make
+</pre></div>
+
+<p>On Mac OS:</p>
+
+<div class="highlight highlight-bash"><pre>port install boost autoconf autoconf-archive doxygen cppunit 
+./bootstrap
+make
+
+</pre></div>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>We designed scrm to behave similar to the famous program
+<a href="http://home.uchicago.edu/%7Erhudson1/source/mksamples.html">ms</a>. 
+The following command line options behave the same effect as in ms:
+"-r", "-I", "-M", "-eM", "-m", "-em", "-G", "-eG", "-g", "-eg", 
+"-ej", "-t", "-T", "-L"
+so if your familiar with ms, then your are almost good to go.</p>
+
+<p>The option "-es" is a bit different to it's ms equivalent. Scrm does not support
+simulating a fixed number of segregating sites (ms' "-s") and gene conversions
+("-c"). </p>
+
+<p>Additionally, scrm has an option that ms does not have. Use "-l" followed by an
+non-negative integer to give the length of an "exact window". This is the
+sequence part that scrm will simulate according to the full Ancestral
+Recombination Graph. Lines of more sequence positions further away will be
+ignored to speedup the simulation process. </p>
+
+<h2>
+<a name="licence" class="anchor" href="#licence"><span class="octicon octicon-link"></span></a>Licence</h2>
+
+<p>You can freely use all code in this project under the conditions of the GNU
+GPL Version 3 or later.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
