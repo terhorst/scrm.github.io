@@ -12,7 +12,8 @@ pygments: true
 title : scrm
 tagline: A Fast and Accurate Coalescent Simulator
 author :
-  name : Paul Staab
+  name : scrm
+  github: paulstaab/scrm
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
