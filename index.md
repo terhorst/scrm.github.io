@@ -1,10 +1,12 @@
 ---
 layout: page
-title: scrm
-tagline: A Fast and Accurate Coalescent Simulator
+title: Fast and Accurate Coalescent Simulation
+tagline: 
 ---
 {% include JB/setup %}
 
 # News
+
 # Downloads
+
 # Links
