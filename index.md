@@ -7,7 +7,7 @@ tagline:
 
 # News
 {% for post in site.posts limit:5 %}    
-+ {{ post.date }}: [post.title]({{ site.url }}{{ post.url }})
++ {{ post.date | date_to_string }}: [{{ post.title }}]({{ site.url }}{{ post.url }})
 {% endfor %}
 
 # Downloads
