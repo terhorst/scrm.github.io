@@ -1,8 +1,8 @@
 ---
 layout: post
-category : website
+category : release
 tagline: First beta released.
-tags : [website]
+tags : [release, v1.0-beta1]
 ---
 
 We are happy to announce that we released the first (and most likely only) beta
