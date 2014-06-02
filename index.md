@@ -11,10 +11,10 @@ tagline:
 {% endfor %}
 
 
-
 # Downloads
-Coming soon...
-
+[scrm v1.0-beta1](./releases/scrm-1.0-beta1.tar.gz)
+([md5](./releases/releases.md5), [sha512](./releases/releases.sha512))
+for unix compatible systems (Linux, Mac OS, etc).
 
 
 # Links
