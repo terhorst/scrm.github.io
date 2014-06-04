@@ -11,9 +11,7 @@ precision. This allows you to rapidly simulate long sequences with
 essentially correct genetic linkage between sites.
 
 # News
-{% for post in site.posts limit:5 %}    
-+ {{ post.date | date_to_string }}: [{{ post.title }}]({{ site.url }}{{ post.url }})
-{% endfor %}
+{% for post in site.posts limit:5 %} * {{ post.date | date_to_string }}: [{{ post.title }}]({{ site.url }}{{ post.url }}) {% endfor %}
 
 
 # Downloads
