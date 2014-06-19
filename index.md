@@ -16,12 +16,11 @@ essentially correct genetic linkage between sites.
 
 
 # Downloads
-[scrm v1.0-beta2](./releases/scrm-1.0-beta2.tar.gz)
+* Source: [scrm v1.0-beta2](./releases/scrm-1.0-beta2.tar.gz)
 ([md5](./releases/releases.md5), [sha512](./releases/releases.sha512))
-for unix compatible systems (Linux, Mac OS, etc).
-[Packaged versions of scrm](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm) for Debian, Fedora, openSUSE and Ubuntu
+* [Packaged versions of scrm](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm) for Debian, Fedora, openSUSE and Ubuntu
 are available via the [openSUSE Build Service](https://build.opensuse.org).
-
+* A package for Arch Linux is in the [Arch User Repository](https://aur.archlinux.org/packages/scrm)
 
 # Links
 + [scrm's GitHub site](https://github.com/paulstaab/scrm)
