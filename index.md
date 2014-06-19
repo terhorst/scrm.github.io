@@ -20,7 +20,7 @@ essentially correct genetic linkage between sites.
 ([md5](./releases/releases.md5), [sha512](./releases/releases.sha512))
 * [Packaged versions of scrm](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm) for Debian, Fedora, openSUSE and Ubuntu
 are available via the [openSUSE Build Service](https://build.opensuse.org).
-* A package for Arch Linux is in the [Arch User Repository](https://aur.archlinux.org/packages/scrm)
+* A package for Arch Linux is in the [Arch User Repository](https://aur.archlinux.org/packages/scrm).
 
 # Links
 + [scrm's GitHub site](https://github.com/paulstaab/scrm)
