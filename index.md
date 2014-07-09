@@ -16,7 +16,7 @@ simulate long sequences with essentially correct genetic linkage between sites.
 
 
 # Downloads
-* Source: [scrm v1.0-beta2](./releases/scrm-1.0-beta2.tar.gz)
+* Source: [scrm v1.0.0](./releases/scrm-1.0.0.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512))
 * Linux: Packages for [Debian, Fedora, openSUSE, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
