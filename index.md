@@ -22,6 +22,10 @@ simulate long sequences with essentially correct genetic linkage between sites.
 * Linux: Packages for [Debian, Fedora, openSUSE, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm)
 
+# Documentation
+Please refer to [scrm's wiki](https://github.com/paulstaab/scrm/wiki) for
+instructions on how to use scrm.
+
 # Links
 + [scrm's GitHub site](https://github.com/paulstaab/scrm)
 + [scrm's wiki](https://github.com/paulstaab/scrm/wiki)
