@@ -6,9 +6,10 @@ tagline:
 {% include JB/setup %}
 
 scrm is a coalescent simulator for biological sequences. Different to similar 
-programs, it can approximate the Ancestral Recombination Graph as close as need,
+programs, it can approximate the Ancestral Recombination Graph as close as
+needed,
 but still has only linear runtime cost for long sequences. It allows you to rapidly 
-simulate long sequences with essentially correct genetic linkage between sites.
+simulate chromosome scale sequences with essentially correct genetic linkage.
 
 # News
 {% for post in site.posts limit:5 %} 
@@ -22,9 +23,11 @@ simulate long sequences with essentially correct genetic linkage between sites.
 * Linux: Packages for [Debian, Fedora, openSUSE, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm)
 
+
 # Documentation
 Please refer to [scrm's wiki](https://github.com/paulstaab/scrm/wiki) for
 instructions on how to use scrm.
+
 
 # Links
 + [scrm's GitHub site](https://github.com/paulstaab/scrm)
