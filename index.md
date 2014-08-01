@@ -6,7 +6,7 @@ tagline:
 {% include JB/setup %}
 
 scrm is a coalescent simulator for biological sequences. Different to similar 
-programs, it can approximate the Ancestral Recombination Graph as close as
+programs, it can approximate the Ancestral Recombination Graph as closely as
 needed,
 but still has only linear runtime cost for long sequences. It allows you to rapidly 
 simulate chromosome scale sequences with essentially correct genetic linkage.
