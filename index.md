@@ -17,7 +17,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 
 
 # Downloads
-* Source: [scrm v1.0.0](./releases/scrm-1.0.0.tar.gz)
+* Source: [scrm v1.1.0](./releases/scrm-1.1.0.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512))
 * Linux: Packages for [Debian, Fedora, openSUSE, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
