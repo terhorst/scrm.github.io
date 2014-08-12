@@ -23,6 +23,9 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * Linux: Packages for [Debian, Fedora, openSUSE, RHEL, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
 * Windows and Mac: Please compile scrm from the source package above.
+* Using [docker](https://www.docker.com): Use the image
+  [paulstaab/scrm](https://registry.hub.docker.com/u/paulstaab/scrm).
+  [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
 
 
 # Documentation
