@@ -22,7 +22,12 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   [sha512](./releases/releases.sha512))
 * Linux: Packages for [Debian, Fedora, openSUSE, RHEL, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
-* Windows and Mac: Please compile scrm from the source package above.
+* Windows: Experimental Binaries: 
+  [64 Bit](./releases/scrm-1.2.0-win64.zip) and 
+  [32 Bit](./releases/scrm-1.2.0-win64.zip).
+  Due to a problem with gcc, you need to manually specify a random seed when
+  using these binaries.
+* Mac: Please compile scrm from the source package above.
 * Using [docker](https://www.docker.com): Use the image
   [paulstaab/scrm](https://registry.hub.docker.com/u/paulstaab/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
