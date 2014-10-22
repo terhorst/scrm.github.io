@@ -1,8 +1,8 @@
 ---
 layout: post
 category : release
-tagline: Version 1.3 released.
-tags : [release, v1.3]
+tagline: R Package released on CRAN
+tags : [release, R, CRAN]
 ---
 
 Since yesterday, there also is an R Version of _scrm_ 
