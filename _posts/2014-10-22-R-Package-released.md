@@ -25,7 +25,6 @@ should be convenient to work with. You can optionally write the traditional ms-l
 output into a file using the file argument:
 
 {% highlight r %}
-library('scrm')
 sum_stats <- scrm('5 1 -r 10 100 -t 5 -oSFS', 
                   file='scrm_output.txt')
 {% endhighlight %}
