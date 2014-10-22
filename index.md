@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-scrm is a coalescent simulator for biological sequences. Different to similar 
+_scrm_ is a coalescent simulator for biological sequences. Different to similar 
 programs, it can approximate the Ancestral Recombination Graph as closely as
 needed,
 but still has only linear runtime cost for long sequences. It allows you to rapidly 
@@ -19,7 +19,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 # Downloads
 * __Source__: [scrm v1.3.0](./releases/scrm-1.3.0.tar.gz)
   ([md5](./releases/releases.md5), 
-  [sha512](./releases/releases.sha512))
+  [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
   for all major platforms. Use `install.packages('scrm')` in R to install it.
 * __Linux__: Packages for [Debian, Fedora, openSUSE, RHEL, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
@@ -30,19 +30,19 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
   Due to a problem with gcc, you need to manually specify a random seed when
-  using these binaries.
-* __Mac__: Please compile _scrm_ from the source package above.
+  using these binaries. Also, consider using the R package.
+* __Mac__: Please compile _scrm_ from the source package above (or use the R package).
 * Using [__docker__](https://www.docker.com): Use the image
   [paulstaab/scrm](https://registry.hub.docker.com/u/paulstaab/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
 
 
 # Documentation
-Please refer to [scrm's wiki](https://github.com/paulstaab/scrm/wiki) for
-instructions on how to use scrm.
+Please refer to [_scrm_'s wiki](https://github.com/paulstaab/scrm/wiki) for
+instructions on how to compile or use _scrm_.
 
 
 # Links
-+ [scrm's GitHub site](https://github.com/paulstaab/scrm)
-+ [scrm's wiki](https://github.com/paulstaab/scrm/wiki)
++ [_scrm_'s GitHub site](https://github.com/paulstaab/scrm)
++ [_scrm_'s wiki](https://github.com/paulstaab/scrm/wiki)
 + [Bugtracker](https://github.com/paulstaab/scrm/issues)
