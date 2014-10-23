@@ -17,7 +17,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 
 
 # Downloads
-* __Source__: [scrm v1.3.0](./releases/scrm-1.3.0.tar.gz)
+* __Source__: [scrm v1.3.1](./releases/scrm-1.3.1.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
