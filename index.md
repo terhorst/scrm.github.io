@@ -23,7 +23,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
   for all major platforms. Use `install.packages('scrm')` in R to install it.
   This requires at least R Version `3.1.0`.
-* __Linux__: Packages for [Debian, Fedora, openSUSE, RHEL, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
+* __Linux__: Packages for [Debian, Fedora, openSUSE, CentOS, RHEL, Scientific Linux, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
 * __Windows__: Experimental Binaries: 
   [64 Bit (recommended)](./releases/scrm-1.3.0-win64.zip) and 
