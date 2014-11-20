@@ -22,7 +22,6 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
   for all major platforms. Use `install.packages('scrm')` in R to install it.
-  This requires at least R Version `3.1.0`.
 * __Linux__: Packages for [Debian, Fedora, openSUSE, CentOS, RHEL, Scientific Linux, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
 * __Windows__: Experimental Binaries: 
@@ -31,7 +30,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
   Due to a problem with gcc, you need to manually specify a random seed when
-  using these binaries. Also, consider using the R package.
+  using these binaries. Alternatively, consider using the R package.
 * __Mac__: Please compile _scrm_ from the source package above (or use the R package).
 * Using [__docker__](https://www.docker.com): Use the image
   [paulstaab/scrm](https://registry.hub.docker.com/u/paulstaab/scrm).
