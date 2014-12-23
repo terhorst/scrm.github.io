@@ -17,7 +17,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 
 
 # Downloads
-* __Source__: [scrm v1.3.1](./releases/scrm-1.3.1.tar.gz)
+* __Source__: [scrm v1.3.2](./releases/scrm-current.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
@@ -25,8 +25,8 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * __Linux__: Packages for [Debian, Fedora, openSUSE, CentOS, RHEL, Scientific Linux, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
 * __Windows__: Experimental Binaries: 
-  [64 Bit (recommended)](./releases/scrm-1.3.0-win64.zip) and 
-  [32 Bit](./releases/scrm-1.3.0-win32.zip) 
+  [64 Bit (recommended)](./releases/scrm-1.3.2-win64.zip) and 
+  [32 Bit](./releases/scrm-1.3.2-win32.zip) 
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
   Due to a problem with gcc, you need to manually specify a random seed when
