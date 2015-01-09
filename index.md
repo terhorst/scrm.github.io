@@ -37,6 +37,15 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
 
 
+# Publication
+If you want to cite _scrm_, please cite the following publication:
+
+    scrm: efficiently simulating long sequences using the approximated 
+    coalescent with recombination 
+    Paul R. Staab; Sha Zhu; Dirk Metzler; Gerton Lunter
+    Bioinformatics 2015; doi: 10.1093/bioinformatics/btu861 
+
+
 # Documentation
 Please refer to [_scrm_'s wiki](https://github.com/paulstaab/scrm/wiki) for
 instructions on how to compile or use _scrm_.
