@@ -40,10 +40,10 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 # Publication
 If you want to cite _scrm_, please cite the following publication:
 
-    scrm: efficiently simulating long sequences using the approximated 
-    coalescent with recombination 
+    scrm: efficiently simulating long sequences using the 
+    approximated coalescent with recombination 
     Paul R. Staab; Sha Zhu; Dirk Metzler; Gerton Lunter
-    Bioinformatics 2015; doi: 10.1093/bioinformatics/btu861 
+    Bioinformatics 2015; doi:10.1093/bioinformatics/btu861
 
 
 # Documentation
