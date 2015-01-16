@@ -55,3 +55,8 @@ instructions on how to compile or use _scrm_.
 + [_scrm_'s GitHub site](https://github.com/paulstaab/scrm)
 + [_scrm_'s wiki](https://github.com/paulstaab/scrm/wiki)
 + [Bugtracker](https://github.com/paulstaab/scrm/issues)
+
+<div style="width: 180px; margin: 0 auto;"><a
+href="http://popmodels.cancercontrol.cancer.gov/gsr/"><img
+src="http://popmodels.cancercontrol.cancer.gov/gsr/static/img/gsr_tile.jpg"
+alt="Catalogued on GSR" width="180" height="60" /></a></div>
