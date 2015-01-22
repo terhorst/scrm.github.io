@@ -33,7 +33,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   using these binaries. Alternatively, consider using the R package.
 * __Mac__: Please compile _scrm_ from the source package above (or use the R package).
 * Using [__docker__](https://www.docker.com): Use the image
-  [paulstaab/scrm](https://registry.hub.docker.com/u/paulstaab/scrm).
+  [scrm/scrm](https://registry.hub.docker.com/u/scrm/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
 
 
