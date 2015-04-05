@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fast Coalescent Simulation
+title: A Next-Generation Coalescent Simulator
 tagline: 
 ---
 {% include JB/setup %}
