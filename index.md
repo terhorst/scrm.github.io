@@ -28,10 +28,8 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   [statically linked x64 binaries](./releases/scrm-1.4.1-x64-static.tar.gz).
 * __Windows__ Binaries: 
   [64 Bit (recommended)](./releases/scrm-1.4.1-win64.zip) and 
-  [32 Bit](./releases/scrm-1.4.1-win32.zip) 
-  ([md5](./releases/releases.md5), 
-  [sha512](./releases/releases.sha512)).
-  Due to a problem with gcc, scrm fails to select a random seed if none is given
+  [32 Bit](./releases/scrm-1.4.1-win32.zip). 
+    Due to a problem with gcc, scrm fails to select a random seed if none is given
   via the `-seed` argument. Consequently, you should always use the `-seed` argument 
   when using the windows binaries. 
   Alternatively, consider using the R package.
