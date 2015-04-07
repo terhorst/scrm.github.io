@@ -26,13 +26,15 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
   We also provide 
   [statically linked x64 binaries](./releases/scrm-1.4.1-x64-static.tar.gz).
-* __Windows__: Experimental Binaries: 
+* __Windows__ Binaries: 
   [64 Bit (recommended)](./releases/scrm-1.4.1-win64.zip) and 
   [32 Bit](./releases/scrm-1.4.1-win32.zip) 
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
-  Due to a problem with gcc, you need to manually specify a random seed when
-  using these binaries. Alternatively, consider using the R package.
+  Due to a problem with gcc, scrm fails to select a random seed if none is given
+  via the `-seed` argument. Consequently, you should always use the `-seed` argument 
+  when using the windows binaries. 
+  Alternatively, consider using the R package.
 * __Mac__: Please compile _scrm_ from the source package above (or use the R package).
 * Using [__docker__](https://www.docker.com): Use the image
   [scrm/scrm](https://registry.hub.docker.com/u/scrm/scrm).
