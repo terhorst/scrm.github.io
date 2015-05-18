@@ -18,7 +18,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 
 
 # Downloads
-* __Source__: [scrm v{{ page.version }}](./releases/scrm-1.5.1.tar.gz)
+* __Source__: [scrm v{{ page.version }}](./releases/scrm-{{ page.version }}.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
@@ -26,11 +26,11 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * __Linux__: Packages for [Debian, Fedora, openSUSE, CentOS, RHEL, Scientific Linux, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
   We also provide 
-  [statically linked x64 binaries](./releases/scrm-1.5.1-x64-static.tar.gz).
+  [statically linked x64 binaries](./releases/scrm-{{ page.version }}-x64-static.tar.gz).
 * __Windows__ Binaries: 
-  [64 Bit (recommended)](./releases/scrm-1.5.1-win64.zip) and 
-  [32 Bit](./releases/scrm-1.5.1-win32.zip). 
-    Due to a problem with gcc, scrm fails to select a random seed if none is given
+  [64 Bit (recommended)](./releases/scrm-{{ page.version }}-win64.zip) and 
+  [32 Bit](./releases/scrm-{{ page.version }}-win32.zip). 
+  Due to a problem with gcc, scrm fails to select a random seed if none is given
   via the `-seed` argument. Consequently, you should always use the `-seed` argument 
   when using the windows binaries. 
   Alternatively, consider using the R package.
