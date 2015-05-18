@@ -2,6 +2,7 @@
 layout: page
 title: Next-Gen Coalescent Simulation
 tagline: 
+version: 1.5.1
 ---
 {% include JB/setup %}
 
@@ -17,7 +18,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 
 
 # Downloads
-* __Source__: [scrm v1.5.0](./releases/scrm-1.5.0.tar.gz)
+* __Source__: [scrm v{{ page.version }}](./releases/scrm-1.5.1.tar.gz)
   ([md5](./releases/releases.md5), 
   [sha512](./releases/releases.sha512)).
 * __R__: _scrm_ is available as [R package on CRAN](http://cran.r-project.org/web/packages/scrm)
@@ -25,10 +26,10 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * __Linux__: Packages for [Debian, Fedora, openSUSE, CentOS, RHEL, Scientific Linux, Ubuntu](http://software.opensuse.org/download.html?project=home%3Apaulst&package=scrm)
   and [Arch Linux](https://aur.archlinux.org/packages/scrm).
   We also provide 
-  [statically linked x64 binaries](./releases/scrm-1.5.0-x64-static.tar.gz).
+  [statically linked x64 binaries](./releases/scrm-1.5.1-x64-static.tar.gz).
 * __Windows__ Binaries: 
-  [64 Bit (recommended)](./releases/scrm-1.5.0-win64.zip) and 
-  [32 Bit](./releases/scrm-1.5.0-win32.zip). 
+  [64 Bit (recommended)](./releases/scrm-1.5.1-win64.zip) and 
+  [32 Bit](./releases/scrm-1.5.1-win32.zip). 
     Due to a problem with gcc, scrm fails to select a random seed if none is given
   via the `-seed` argument. Consequently, you should always use the `-seed` argument 
   when using the windows binaries. 
@@ -42,10 +43,11 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 # Publication
 If you want to cite _scrm_, please cite the following publication:
 
-    scrm: efficiently simulating long sequences using the 
-    approximated coalescent with recombination 
-    Paul R. Staab; Sha Zhu; Dirk Metzler; Gerton Lunter
-    Bioinformatics 2015; doi:10.1093/bioinformatics/btu861
+> Paul R. Staab, Sha Zhu, Dirk Metzler and Gerton Lunter.
+> **scrm: efficiently simulating long sequences using the approximated coalescent
+> with recombination**. 
+> Bioinformatics (2015) 31 (10): 1680-1682.
+> [doi:10.1093/bioinformatics/btu861](http://bioinformatics.oxfordjournals.org/content/31/10/1680).
 
 
 # Documentation
