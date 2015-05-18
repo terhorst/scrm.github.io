@@ -25,15 +25,8 @@ a1b5d374d732ddb262e5ecdc60485f03  scrm-1.4.1-x64-static.tar.gz
 360832f7a71b948b19118555f304c753  scrm-1.5.0-win64.zip
 8115148f0945be32565844374d3d3033  scrm-1.5.0-x64-static.tar.gz
 09fdc94750d720e8e62e4e9489e1e8c8  scrm-1.5.0.tar.gz
-<<<<<<< HEAD
+089c5af10f9c6f733a544f3bc27fa299  scrm-1.5.1-win32.zip
+50b792cb73f5c08c5ac2a6299c3df9b6  scrm-1.5.1-win64.zip
 6cba26b5d3fae194201b49f1b606dcd6  scrm-1.5.1-x64-static.tar.gz
 6999b77b06c81b1934ec07cdc328bd69  scrm-1.5.1.tar.gz
 6cba26b5d3fae194201b49f1b606dcd6  scrm-current-x64-static.tar.gz
-6999b77b06c81b1934ec07cdc328bd69  scrm-current.tar.gz
-=======
-089c5af10f9c6f733a544f3bc27fa299  scrm-1.5.1-win32.zip
-50b792cb73f5c08c5ac2a6299c3df9b6  scrm-1.5.1-win64.zip
-efbb30d1d636dee6e84f4a4356d55dac  scrm-1.5.1-x64-static.tar.gz
-f435a0b388ebd0fe675365c6061ff6df  scrm-1.5.1.tar.gz
-efbb30d1d636dee6e84f4a4356d55dac  scrm-current-x64-static.tar.gz
->>>>>>> release v1.5.1
