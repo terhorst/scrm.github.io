@@ -5,6 +5,12 @@ tagline:
 version: 1.5.1
 ---
 
+Everything
+==========
+{{ site.github }}
+
+Repos
+=====
 {% for repo in site.github.public_repositories %}
   [{{ repo.name }}]({{ repo.html_url }})
   
