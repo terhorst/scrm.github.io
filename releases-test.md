@@ -5,11 +5,11 @@ tagline:
 version: 1.5.1
 ---
 
-{% for repository in site.github.public_repositories %}
-  [{{ repository.name }}]({{ repository.html_url }})
-  ----
+{% for repo in site.github.public_repositories %}
+  [{{ repo.name }}]({{ repo.html_url }})
   
-  {% for release in repository.releases %}
+  {{ repo }} 
+  {% for release in repo.releases %}
     {{ release.name }}
   {% endfor %}
   
