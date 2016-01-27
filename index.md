@@ -36,7 +36,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * Using [__docker__](https://www.docker.com): Use the image
   [scrm/scrm](https://registry.hub.docker.com/u/scrm/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
-* Using [Bioconda](https://bioconda.github.io): Use `conda install scrm`.
+* Using [__Bioconda__](https://bioconda.github.io): Use `conda install scrm`.
 
 
 # Publication
