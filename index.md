@@ -36,10 +36,11 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
 * Using [__docker__](https://www.docker.com): Use the image
   [scrm/scrm](https://registry.hub.docker.com/u/scrm/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
+* Using [Bioconda](https://bioconda.github.io): Use `conda install scrm`.
 
 
 # Publication
-If you want to cite _scrm_, please cite the following publication:
+If you use _scrm_ in a publication, please cite the following publication:
 
 > Paul R. Staab, Sha Zhu, Dirk Metzler and Gerton Lunter.
 > **scrm: efficiently simulating long sequences using the approximated coalescent
