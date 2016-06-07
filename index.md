@@ -32,7 +32,7 @@ simulate chromosome scale sequences with essentially correct genetic linkage.
   via the `-seed` argument. Consequently, you should always use the `-seed` argument 
   when using the windows binaries. 
   Alternatively, consider using the R package.
-* __Mac__: Please compile _scrm_ from the source package above (or use the R package).
+* __Mac__: scrm is available via the [Homebrew package manager](https://brew.sh). After installing Homebrew, run `brew install homebrew/science/scrm` to build the latest version.
 * Using [__docker__](https://www.docker.com): Use the image
   [scrm/scrm](https://registry.hub.docker.com/u/scrm/scrm).
   [Short instructions](https://github.com/scrm/scrm-docker/blob/master/README.md).
